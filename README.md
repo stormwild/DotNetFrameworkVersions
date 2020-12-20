@@ -155,7 +155,6 @@ dotnet new sln -n DotNetFrameworkVersions
 ## Screenshot
 
 ![](docs/dotnetframeworkversions-screenshot.png)
-![](raw/main/docs/dotnetframeworkversions-screenshot.png)
 
 ## References
 

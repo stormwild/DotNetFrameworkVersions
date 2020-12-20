@@ -152,6 +152,10 @@ dotnet new sln -n DotNetFrameworkVersions
     </table>
     ```
 
+## Screenshot
+
+![](docs/dotnetframeworkversions-screenshot.png)
+
 ## References
 
 - [How to check your .NET Framework version](https://smartdoc.zendesk.com/hc/en-us/articles/205232308-How-to-check-your-NET-Framework-version)

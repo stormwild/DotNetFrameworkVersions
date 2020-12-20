@@ -52,12 +52,12 @@ dotnet new sln -n DotNetFrameworkVersions
 7. Configure DbContext in Services
 
 	```csharp
-		public void ConfigureServices(IServiceCollection services)
-			{
-				services.AddControllersWithViews();
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllersWithViews();
 
-				services.AddDbContext<DotNetFrameworkVersionsDbContext>(options => options.UseSqlServer("Name=ConnectionStrings.DotNetFrameworkVersionsDb"));
-			}
+            services.AddDbContext<DotNetFrameworkVersionsDbContext>(options => options.UseSqlServer("Name=ConnectionStrings.DotNetFrameworkVersionsDb"));
+        }
 	```
 
 8. Inject DbContext into Controller
